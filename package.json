@@ -1,0 +1,15 @@
+{
+  "name": "ai-joke-03-entry",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ai-joke-03 entry: writes one joke to /output/entry.txt",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node main.ts",
+    "check": "node --check main.ts"
+  }
+}
